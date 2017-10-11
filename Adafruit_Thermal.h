@@ -170,7 +170,8 @@ class Adafruit_Thermal : public Print {
     underlineOn(uint8_t weight=1),
     upsideDownOff(),
     upsideDownOn(),
-    wake();
+    wake(),
+    cut();
   bool
     hasPaper();
 
