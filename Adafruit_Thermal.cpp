@@ -627,3 +627,7 @@ void Adafruit_Thermal::setCharSpacing(int spacing) {
 }
 
 // -------------------------------------------------------------------------
+
+void Adafruit_Thermal::cut() {
+	writeBytes(ASCII_GS, 'V', 1);
+}
